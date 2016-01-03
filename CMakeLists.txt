@@ -110,18 +110,21 @@ include_directories(
   /usr/local/include/GLFW
   /usr/include/GLFW
   ${COCOS2D_ROOT}/cocos
+  ${COCOS2D_ROOT}/cocos/ui
   Classes
 )
 
 set(GAME_SRC
   Classes/AppDelegate.cpp
-  Classes/HelloWorldScene.cpp
+  Classes/MainScene.cpp
+  Classes/CubeScene.cpp
   ${PLATFORM_SPECIFIC_SRC}
 )
 
 set(GAME_HEADERS
   Classes/AppDelegate.h
-  Classes/HelloWorldScene.h
+  Classes/MainScene.h
+  Classes/CubeScene.h
   ${PLATFORM_SPECIFIC_HEADERS}
 )
 
